@@ -1,5 +1,6 @@
 const incrementString = (string) => {
   const str = string.toString();
+  
   let number = str.match(/\d+/) === null ? 0 : str.match(/\d+/)[0];
 
   const numberLength = number.length;
